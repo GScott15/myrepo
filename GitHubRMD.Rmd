@@ -2,7 +2,9 @@
 title: "GitHub R Markdown"
 author: "Gina Scott"
 date: "2023-11-14"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
